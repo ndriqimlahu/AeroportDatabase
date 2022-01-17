@@ -43,12 +43,12 @@
 
 The project called `Airport Database` is an database project where it is designed and developed to be managed and administered for the airport. In this database you can navigate into different tables which are “Aeroplani”, “Aeroporti”, “Fluturimet”, “Kompanit” and “Pasagjeret”.
 
-This project started from scratch where I worked and completed, also I made some improvements in the back-end side of database development, such as the creating of tables,  relational connection between tables by using the diagram, connection with JOIN, JOIN ALL, INTERSECT and EXCEPT, adding and using the string and date functions, creating views, creating functions, creating pivoted table, grouping the tables by cube and rollup, adding and using the SUM(), RANK(), DENSE_RANK functions, ordering by ASC and DESC, creating and updating the stored procedure, declaring variables and manipulation with data, creating the audit table, creation of trigger, updating and select, managing of backup and restore for entire week of database, creating of job for backup, configuration of database mail, alert system for SQL Server Agent, receiving the email for job succeed and many more things.
+This project started from scratch where I worked and completed, also I made some improvements in the back-end side of Database Development, such as the creating of tables,  relational connection between tables by using the diagram, connection with JOIN, JOIN ALL, INTERSECT and EXCEPT, adding and using the string and date functions, creating views, creating functions, creating pivoted table, grouping the tables by cube and rollup, adding and using the SUM(), RANK(), DENSE_RANK functions, ordering by ASC and DESC, creating and updating the stored procedure, declaring variables and manipulation with data, creating the audit table, creation of trigger, updating and select, managing of backup and restore for entire week of database, creating of job for backup, configuration of database mail, alert system for SQL Server Agent, receiving the email for job succeed and many more things.
 
 
 ### Built With
 
-This database project is based on Technologies like below:
+This database project is based on technology like below:
 
 * Microsoft SQL Server
 
