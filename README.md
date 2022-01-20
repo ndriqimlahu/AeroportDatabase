@@ -61,7 +61,7 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this database is required to have an DBMS (Database Management System).
+In order to open this database is required to have an Database Management System (Microsoft SQL Server).
 
 
 ### Installation
