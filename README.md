@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/AirportDatabase.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/AirportDatabase.png" alt="Logo" width="250" height="250">
   <h3 align="center">Airport Database</h3>
   <p align="center">
     Ndriçim Lahu
@@ -68,7 +68,7 @@ In order to open this database is required to have an Database Management System
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/AirportDatabase.git
+   git clone https://github.com/ndriqimlahu/airport-database.git
    ```
 2. Open the repo folder and go to `Full Project` folder.
 3. After that use the MSSQL Server and Restore the database by choosing the `2. Project_Aeroport.bak` file.
