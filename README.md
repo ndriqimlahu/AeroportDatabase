@@ -79,7 +79,122 @@ In order to open this database is required to have an Database Management System
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-* Screenshots will be uploaded soon!
+* Krijimi i tabelës Aeroplani
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/01-Krijimi%20i%20tabel%C3%ABs%20Aeroplani.JPG">
+
+* Krijimi i tabelës Aeroporti
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/02-Krijimi%20i%20tabel%C3%ABs%20Aeroporti.JPG">
+
+* Krijimi i tabelës Fluturimet
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/03-Krijimi%20i%20tabel%C3%ABs%20Fluturimet.JPG">
+
+* Krijimi i tabelës Kompanit
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/04-Krijimi%20i%20tabel%C3%ABs%20Kompanit.JPG">
+
+* Krijimi i tabelës Pasagjeret
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/05-Krijimi%20i%20tabel%C3%ABs%20Pasagjeret.JPG">
+
+* Lidhja e tabelave me Diagram
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/06-Lidhja%20e%20tabelave%20me%20Diagram.JPG">
+
+* Krijimi i VIEW
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/07-Krijimi%20i%20VIEW.JPG">
+
+* Selektimi i VIEW
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/08-Selektimi%20i%20VIEW.JPG">
+
+* Krijimi i STORED PROCEDURE
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/09-Krijimi%20i%20STORED%20PROCEDURE.JPG">
+
+* Ekzekutimi i STORED PROCEDURE
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/10-Ekzekutimi%20i%20STORED%20PROCEDURE.JPG">
+
+* Selektimi pas ekzekutimit të STORED PROCEDURE
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/11-Selektimi%20pas%20ekzekutimit%20t%C3%AB%20STORED%20PROCEDURE.JPG">
+
+* Krijimi i tabelës Audit
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/12-Krijimi%20i%20tabel%C3%ABs%20Audit.JPG">
+
+* Krijimi i TRIGGER
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/13-Krijimi%20i%20TRIGGER.JPG">
+
+* Update dhe Selekti i tabelës
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/14-Update%20dhe%20Selekti%20i%20tabel%C3%ABs.JPG">
+
+* Krijimi i Job-it për BackUp
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/15-Krijimi%20i%20Job-it%20p%C3%ABr%20BackUp.JPG">
+
+* Caktimi i orës për kryerjen e Job-it
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/16-Caktimi%20i%20or%C3%ABs%20p%C3%ABr%20kryerjen%20e%20Job-it.JPG">
+
+* Konfigurimi i Database Mail (Hapi 1)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/17-Konfigurimi%20i%20Database%20Mail-1.JPG">
+
+* Konfigurimi i Database Mail (Hapi 2)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/18-Konfigurimi%20i%20Database%20Mail-2.JPG">
+
+* Konfigurimi i Database Mail (Hapi 3)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/19-Konfigurimi%20i%20Database%20Mail-3.JPG">
+
+* Konfigurimi i Database Mail (Hapi 4)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/20-Konfigurimi%20i%20Database%20Mail-4.JPG">
+
+* Konfigurimi i Database Mail (Hapi 5)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/21-Konfigurimi%20i%20Database%20Mail-5.JPG">
+
+* Konfigurimi i Database Mail (Hapi 6)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/22-Konfigurimi%20i%20Database%20Mail-6.JPG">
+
+* Konfigurimi i Database Mail (Hapi 7)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/23-Konfigurimi%20i%20Database%20Mail-7.JPG">
+
+* Konfigurimi i Database Mail (Hapi 8)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/24-Konfigurimi%20i%20Database%20Mail-8.JPG">
+
+* Konfigurimi i Database Mail (Hapi 9)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/25-Konfigurimi%20i%20Database%20Mail-9.JPG">
+
+* Database Mail Test me anë të dërgimit me email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/26-Database%20Mail%20Test.JPG">
+
+* Alert System për SQL Server Agent
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/27-Alert%20System%20p%C3%ABr%20SQL%20Server%20Agent.JPG">
+
+* Krijimi i Job Step (Hapi 1)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/28-Job%20Step-1.JPG">
+
+* Krijimi i Job Step (Hapi 2)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/29-Job%20Step-2.JPG">
+
+* Job Step është krijuar
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/30-Job%20Step%20%C3%ABsht%C3%AB%20kryer.JPG">
+
+* Krijimi i Alert
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/31-Alert%20krijimi.JPG">
+
+* Krijimi i Operator
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/32-Operator%20krijimi.JPG">
+
+* Operator është krijuar
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/33-Operator%20i%20krijuar.JPG">
+
+* Krijimi i Alert error përmes Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/34-Alert%20error%20p%C3%ABrmes%20Email.JPG">
+
+* Alert është krijuar
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/35-Alerti%20i%20kryer.JPG">
+
+* Njoftimi përmes email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/36-Njoftimi%20per%20email.JPG">
+
+* Job starton me sukses
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/37-Job%20starton%20me%20sukses.JPG">
+
+* Job u krye me sukses dhe dërgimi me email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/38-Job%20u%20krye%20me%20sukses.JPG">
+
+* BackUp i kryer me sukses
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/39-BackUp%20i%20kryer%20me%20sukses.JPG">
 
 
 <!-- COPYRIGHT -->
