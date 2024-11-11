@@ -1,213 +1,128 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/AirportDatabase.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Airport Database</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://github.com/ndriqimlahu/airport-database/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/airport-database/issues">Request Feature</a>
-  </p>
-</p>
+# Airport Database
 
+Airport Database is a project designed to store, organize, and retrieve essential information about airports, flights, and airline operations. This project simulates an airport management system with a focus on managing data for airplanes, airports, flights, airlines and passengers records in an organized and efficient way.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project is structured to showcase the foundational aspects of an airport management system, allowing users to interact with a range of data points crucial for airport operations. By maintaining organized records for airplanes, airports, flights, airlines, and passengers, the database enables streamlined data retrieval and management of essential information.
 
+## Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-The project called `Airport Database` is an database project where it is designed and developed to be managed and administered for the airport. In this database you can navigate into different tables which are “Aeroplani”, “Aeroporti”, “Fluturimet”, “Kompanit” and “Pasagjeret”.
-
-This project started from scratch where I worked and completed, also I made some improvements in the back-end side of Database Development, such as the creating of tables,  relational connection between tables by using the diagram, connection with JOIN, JOIN ALL, INTERSECT and EXCEPT, adding and using the string and date functions, creating views, creating functions, creating pivoted table, grouping the tables by cube and rollup, adding and using the SUM(), RANK(), DENSE_RANK functions, ordering by ASC and DESC, creating and updating the stored procedure, declaring variables and manipulation with data, creating the audit table, creation of trigger, updating and select, managing of backup and restore for entire week of database, creating of job for backup, configuration of database mail, alert system for SQL Server Agent, receiving the email for job succeed and many more things.
-
-
-### Built With
-
-This database project is based on technology like below:
-
+This database is based on technology like below:
 * Microsoft SQL Server
 
+## Features
 
-<!-- GETTING STARTED -->
-## Getting Started
+✅ **Comprehensive Airport Management:** Includes tables for storing and managing data about airplanes, airports, flights, airlines, and passengers, offering a broad view of airport and airline operations.
 
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
+✅ **Flight Scheduling and Details:** Manages and organizes information on flight schedules, departure and arrival times, destinations, and associated airlines.
 
+✅ **Airline Information Management:** Maintains data on airlines, including airline codes and associated flights, enabling an organized approach to airline management.
 
-### Prerequisites
+✅ **Passenger Records Management:** Stores and updates detailed passenger records, allowing for efficient passenger tracking and reservation management.
 
-In order to open this database is required to have an Database Management System (Microsoft SQL Server).
+✅ **Data Validation and Consistency:** Enforces relational database constraints to maintain data accuracy and integrity across tables.
 
+✅ **Automated Backup and Restore Management:** Includes configuration for daily and weekly automated database backups, ensuring data is consistently safeguarded.
 
-### Installation
+✅ **Database Mail and Alert System:** Configures Database Mail and alert notifications for SQL Server Agent, enabling administrators to monitor and receive real-time alerts about job statuses.
 
-1. Download the code or Clone the repo:
-   ```terminal
+## Prerequisites
+
+Before you begin, ensure that [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) is installed on your system. If it’s not, please follow the [installation](https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server) guide to download and set it up correctly.
+
+## Installation
+
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/airport-database.git
    ```
-2. Open the repo folder and go to `Full Project` folder.
-3. After that use the MSSQL Server and Restore the database by choosing the `2. Project_Aeroport.bak` file.
-4. Then you can execute the SQL Query from `Assignment` folder which are with extension `.sql` file.
+2. Open SQL Server Management Studio (SSMS) and connect to your SQL Server instance.
+3. In SSMS, restore the database:
+    - Right-click on **Databases** in the Object Explorer.
+    - Select **Restore Database...** option.
+    - Navigate to the repository folder on your local machine.
+    - Choose the `Airport_Database.bak` file from the `FinalProject` folder.
+    - Follow the prompts to complete the restoration.
+4. Once restored, verify that the `Airport` database is visible under Databases in SSMS and ready for use.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the database looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+* Connection of tables with Diagram
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/06-Lidhja%20e%20tabelave%20me%20Diagram.JPG">
 
-* Krijimi i tabelës Aeroplani
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/01-Krijimi%20i%20tabel%C3%ABs%20Aeroplani.JPG">
+* Creation and selection of VIEW
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/08-Selektimi%20i%20VIEW.JPG">
 
-* Krijimi i tabelës Aeroporti
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/02-Krijimi%20i%20tabel%C3%ABs%20Aeroporti.JPG">
+* Execution and selection of STORED PROCEDURE
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/11-Selektimi%20pas%20ekzekutimit%20t%C3%AB%20STORED%20PROCEDURE.JPG">
 
-* Krijimi i tabelës Fluturimet
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/03-Krijimi%20i%20tabel%C3%ABs%20Fluturimet.JPG">
+* Creating the Audit table
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/12-Krijimi%20i%20tabel%C3%ABs%20Audit.JPG">
 
-* Krijimi i tabelës Kompanit
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/04-Krijimi%20i%20tabel%C3%ABs%20Kompanit.JPG">
+* Creating the TRIGGER
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/13-Krijimi%20i%20TRIGGER.JPG">
 
-* Krijimi i tabelës Pasagjeret
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/05-Krijimi%20i%20tabel%C3%ABs%20Pasagjeret.JPG">
+* Updating and selection of the table
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/14-Update%20dhe%20Selekti%20i%20tabel%C3%ABs.JPG">
 
-* Lidhja e tabelave me Diagram
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/06-Lidhja%20e%20tabelave%20me%20Diagram.JPG">
+* Creating a Backup Job
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/15-Krijimi%20i%20Job-it%20p%C3%ABr%20BackUp.JPG">
 
-* Krijimi i VIEW
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/07-Krijimi%20i%20VIEW.JPG">
+* Setting the time to perform the Job
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/16-Caktimi%20i%20or%C3%ABs%20p%C3%ABr%20kryerjen%20e%20Job-it.JPG">
 
-* Selektimi i VIEW
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/08-Selektimi%20i%20VIEW.JPG">
+* Mail Database Configuration (Step 1)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/19-Konfigurimi%20i%20Database%20Mail-3.JPG">
 
-* Krijimi i STORED PROCEDURE
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/09-Krijimi%20i%20STORED%20PROCEDURE.JPG">
+* Mail Database Configuration (Step 2)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/20-Konfigurimi%20i%20Database%20Mail-4.JPG">
 
-* Ekzekutimi i STORED PROCEDURE
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/10-Ekzekutimi%20i%20STORED%20PROCEDURE.JPG">
+* Mail Database Configuration (Step 3)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/21-Konfigurimi%20i%20Database%20Mail-5.JPG">
 
-* Selektimi pas ekzekutimit të STORED PROCEDURE
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/11-Selektimi%20pas%20ekzekutimit%20t%C3%AB%20STORED%20PROCEDURE.JPG">
+* Mail Database Configuration (Step 4)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/25-Konfigurimi%20i%20Database%20Mail-9.JPG">
 
-* Krijimi i tabelës Audit
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/12-Krijimi%20i%20tabel%C3%ABs%20Audit.JPG">
+* Alert System for SQL Server Agent
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/27-Alert%20System%20p%C3%ABr%20SQL%20Server%20Agent.JPG">
 
-* Krijimi i TRIGGER
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/13-Krijimi%20i%20TRIGGER.JPG">
+* Creating Job Step (Step 1)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/28-Job%20Step-1.JPG">
 
-* Update dhe Selekti i tabelës
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/14-Update%20dhe%20Selekti%20i%20tabel%C3%ABs.JPG">
+* Creating Job Step (Step 2)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/29-Job%20Step-2.JPG">
 
-* Krijimi i Job-it për BackUp
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/15-Krijimi%20i%20Job-it%20p%C3%ABr%20BackUp.JPG">
+* Job Steps are created
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/30-Job%20Step%20%C3%ABsht%C3%AB%20kryer.JPG">
 
-* Caktimi i orës për kryerjen e Job-it
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/16-Caktimi%20i%20or%C3%ABs%20p%C3%ABr%20kryerjen%20e%20Job-it.JPG">
+* Creation of Alert
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/31-Alert%20krijimi.JPG">
 
-* Konfigurimi i Database Mail (Hapi 1)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/17-Konfigurimi%20i%20Database%20Mail-1.JPG">
+* Creation of Operator
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/32-Operator%20krijimi.JPG">
 
-* Konfigurimi i Database Mail (Hapi 2)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/18-Konfigurimi%20i%20Database%20Mail-2.JPG">
+* Operator is created
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/33-Operator%20i%20krijuar.JPG">
 
-* Konfigurimi i Database Mail (Hapi 3)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/19-Konfigurimi%20i%20Database%20Mail-3.JPG">
+* Creation of Error Alert through Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/34-Alert%20error%20p%C3%ABrmes%20Email.JPG">
 
-* Konfigurimi i Database Mail (Hapi 4)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/20-Konfigurimi%20i%20Database%20Mail-4.JPG">
+* Alert is created
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/35-Alerti%20i%20kryer.JPG">
 
-* Konfigurimi i Database Mail (Hapi 5)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/21-Konfigurimi%20i%20Database%20Mail-5.JPG">
+* Notification via email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/36-Njoftimi%20per%20email.JPG">
 
-* Konfigurimi i Database Mail (Hapi 6)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/22-Konfigurimi%20i%20Database%20Mail-6.JPG">
+* Job starts successfully
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/37-Job%20starton%20me%20sukses.JPG">
 
-* Konfigurimi i Database Mail (Hapi 7)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/23-Konfigurimi%20i%20Database%20Mail-7.JPG">
+* Job completed successfully and email sent
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/38-Job%20u%20krye%20me%20sukses.JPG">
 
-* Konfigurimi i Database Mail (Hapi 8)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/24-Konfigurimi%20i%20Database%20Mail-8.JPG">
+* Backup completed successfully
+<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/FinalProject/FinalProject_Preview/39-BackUp%20i%20kryer%20me%20sukses.JPG">
 
-* Konfigurimi i Database Mail (Hapi 9)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/25-Konfigurimi%20i%20Database%20Mail-9.JPG">
-
-* Database Mail Test me anë të dërgimit me email
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/26-Database%20Mail%20Test.JPG">
-
-* Alert System për SQL Server Agent
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/27-Alert%20System%20p%C3%ABr%20SQL%20Server%20Agent.JPG">
-
-* Krijimi i Job Step (Hapi 1)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/28-Job%20Step-1.JPG">
-
-* Krijimi i Job Step (Hapi 2)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/29-Job%20Step-2.JPG">
-
-* Job Step është krijuar
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/30-Job%20Step%20%C3%ABsht%C3%AB%20kryer.JPG">
-
-* Krijimi i Alert
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/31-Alert%20krijimi.JPG">
-
-* Krijimi i Operator
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/32-Operator%20krijimi.JPG">
-
-* Operator është krijuar
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/33-Operator%20i%20krijuar.JPG">
-
-* Krijimi i Alert error përmes Email
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/34-Alert%20error%20p%C3%ABrmes%20Email.JPG">
-
-* Alert është krijuar
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/35-Alerti%20i%20kryer.JPG">
-
-* Njoftimi përmes email
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/36-Njoftimi%20per%20email.JPG">
-
-* Job starton me sukses
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/37-Job%20starton%20me%20sukses.JPG">
-
-* Job u krye me sukses dhe dërgimi me email
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/38-Job%20u%20krye%20me%20sukses.JPG">
-
-* BackUp i kryer me sukses
-<img src="https://raw.githubusercontent.com/ndriqimlahu/airport-database/main/Full%20Project/Preview/39-BackUp%20i%20kryer%20me%20sukses.JPG">
-
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
 ## Support
 
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+If you find this project useful, please consider giving it a star!
