@@ -1,6 +1,6 @@
 # Airport Database
 
-Airport Database is a project designed to store, organize, and retrieve essential information about airports, flights, and airline operations. This project simulates an airport management system with a focus on managing data for airplanes, airports, flights, airlines and passengers records in an organized and efficient way.
+**Airport Database** is a project designed to store, organize, and retrieve essential information about airports, flights, and airline operations. This project simulates an airport management system with a focus on managing data for airplanes, airports, flights, airlines and passengers records in an organized and efficient way.
 
 This project is structured to showcase the foundational aspects of an airport management system, allowing users to interact with a range of data points crucial for airport operations. By maintaining organized records for airplanes, airports, flights, airlines, and passengers, the database enables streamlined data retrieval and management of essential information.
 
@@ -27,7 +27,9 @@ This database is based on technology like below:
 
 ## Prerequisites
 
-Before you begin, ensure that [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) is installed on your system. If it’s not, please follow the [installation](https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server) guide to download and set it up correctly.
+Before starting, ensure that the [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) is installed on your system.
+- Follow the [installation guide](https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server) to download, install and set it up correctly.
+- Verify your SQL Server installation by launching SQL Server Management Studio (SSMS) and connecting to your SQL Server instance.
 
 ## Installation
 
